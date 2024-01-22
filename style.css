@@ -3,10 +3,16 @@
     background-color: #e2edff;
 }
 
+.sosmed{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+:hover
 .display-4{
     font-weight: 450;
 }
-
 #Project{
     background-color: #e2edff;
 }
