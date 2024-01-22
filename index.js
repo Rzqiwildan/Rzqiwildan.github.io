@@ -24,3 +24,14 @@ form.addEventListener('submit', (e) => {
     .catch(error => console.error('Error!', error.message))
 })
 
+// Animation on scroll
+
+AOS.init({
+    once: true,
+    duration: 1000,
+});
+
+
+// Gsap
+gsap.registerPlugin(TextPlugin);
+gsap.to('.lead', {duration: 3, text: 'Front End Developer | UI/UX'});
